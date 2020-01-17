@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.AboutUI">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        fontPath="fonts/coffee+teademo-Regular.ttf"
+        tools:ignore="MissingPrefix"
+        android:textSize="44dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version_app"
+        android:textSize="14dp"
+        android:textColor="@color/abu"/>
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fandi"
+        android:textSize="20dp"
+        android:textColor="@color/white1"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eka"
+        android:textSize="20dp"
+        android:textColor="@color/white1"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vernanda"
+        android:textSize="20dp"
+        android:textColor="@color/white1"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:layout_marginTop="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/abu"/>
+
+</LinearLayout>
